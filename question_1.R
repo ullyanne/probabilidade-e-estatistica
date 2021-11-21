@@ -15,7 +15,8 @@ View(notas)
 #BOXPLOT (Q1)
 boxplot(new_df$NOTA_ENEN, col = "orange", main="Boxplot - Notas", ylab="Notas")
 
-#Histogramaadasdasd
+#Histograma
 hist(notas, main="HIstograma - Notas", ylab="Frequência", xlab = "Notas")
+
 
 
