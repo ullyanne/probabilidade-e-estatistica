@@ -8,7 +8,7 @@ classes <- c("300.02-450.06", "450.06-493.96", "493.96-550.28", "550.28-796.14")
 notas.cut = table(cut(df$NOTA_ENEN, breaks=quantile(df$NOTA_ENEN, na.rm=T), include.lowest = TRUE, labels=classes))
 
 #----Boxplot
-boxplot(df$NOTA_ENEN, col = "light blue", main="Boxplot - Notas", ylab="Notas")
+boxplot(df$NOTA_ENEN, col = "light blue", main="Boxplot - Notas ENEM", ylab="Notas")
 
 #---Frequência relativa
 #relfreq <- notas.tb/sum(notas.cut)
