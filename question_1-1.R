@@ -30,10 +30,3 @@ frequencies = cbind(notas.cut, absfreq_a,
                     relfreq_a=round(relfreq_a*1,digits = 2))
 colnames(frequencies) <- c("Frequência absoluta", "Frequência absoluta acumulada", "Frequência relativa", "Frequência relativa acumulada")
 View(frequencies)
-
-#----Histograma
-hist(notas.tb, col="spring green", ylab="Frequência", xlab="Notas", main="Histograma - Notas")
-
-
-
-

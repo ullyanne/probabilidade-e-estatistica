@@ -5,7 +5,7 @@ barplot(notas.sexo,
         col=c("thistle1", "pale turquoise1"),
         main="Notas x Sexo",
         xlab="Quantiles",
-        ylim=c(0,15000),
+        ylim=c(0,13000),
         ylab="Frequência notas",
         legend=T,
         beside = T
