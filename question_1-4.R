@@ -1,5 +1,3 @@
-#procurar porcentagem
-
 notas.quartil <- cut(df$NOTA_ENEN, breaks=quantile(df$NOTA_ENEN, na.rm=T))
 notas.is_treineiro <- table(dados_enem$IN_TREINEIRO, notas.quartil)
 
