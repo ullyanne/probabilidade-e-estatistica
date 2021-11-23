@@ -1,5 +1,5 @@
 # probabilidade-e-estatistica
-Análise de dados do ENEM 2019 em Alagoas para a disciplina de Probabilidade e Estatística
+Análise de dados do ENEM 2019 em Alagoas para a disciplina de Probabilidade e Estatística. 
 
 ---
 
@@ -8,7 +8,7 @@ Para todas as questões, utilizar a base de dados do ENEM 2019 disponibilizada.
 > Selecionamos apenas o estado de Alagoas e algumas variáveis da base original, acrescentamos uma coluna (NOTA_ENEN) com a média das notas, eliminamos os dados faltosos, eliminamos as NOTA-ENEN inferiores a 300 pontos e substituímos alguns nomes de variáveis, que eram códigos, por sua descrição.
 
 
-## Questão 1
+## :bar_chart: Questão 1 
 Utilizando a coluna NOTA_ENEN, considerando como classes os
 Quartis:
 
@@ -32,7 +32,7 @@ interpretar os resultados.
 
 * Escolher duas variáveis quantitativas, combinar e interpretar os resultados.
 
-## Questão 2
+## :chart_with_upwards_trend: Questão 2
 
 Utilizando a base de dados, escolha um município, agrupe algumas
 variáveis a sua escolha, gere os gráficos que achar adequados e faça uma síntese dos
