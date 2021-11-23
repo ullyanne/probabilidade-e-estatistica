@@ -22,15 +22,15 @@ media_nao_declarado <- mean(etnia_nao_declarada$NOTA_ENEN)
 
 
 
-etnias <- c('Preta','Branca','Pardo', 'Amarelo', 'IndÃ­gena', "N/D")
+etnias <- c('Preta','Branca','Pardo', 'Amarelo', 'Indígena', "N/D")
 medias <- c(media_preta, media_branca, media_parda,media_amarela, media_indigena, media_nao_declarado)
 
 chart_data <- data.frame(etnias,medias)
  
 barplot(height=chart_data$medias,
         names=chart_data$etnias,
-        main = "MÃ©dia das notas por Etnia - Murici",
-        col=c("antiquewhite4", "azure2", "lightgreen", "lightsalmon","mediumpurple1", "ivory4"),
+        main = "Média das notas por Etnia - Murici",
+        col=c("antiquewhite4", "azure2", "lightgreen", "lightsalmon","mediumpurple1", "lightpink"),
         ylim=c(0,600),
         width=c(0.1,0.1,0.1,0.1, 0.1 ), las=1 )
  
